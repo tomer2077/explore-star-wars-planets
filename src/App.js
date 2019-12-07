@@ -12,7 +12,7 @@ class App extends Component {
 
 	async componentDidMount() {
 		const randomNum = Math.floor(Math.random() * 100) + 1;
-		let url = 'http://swapi.co/api/planets/' + randomNum;
+		let url = 'https://swapi.co/api/planets/' + randomNum;
 
 		try {
 			const response = await fetch(url);
@@ -26,7 +26,7 @@ class App extends Component {
 	  
 	  async wow(event) {
 		const randomNum = Math.floor(Math.random() * 100) + 1;
-		let url = 'http://swapi.co/api/planets/' + randomNum;
+		let url = 'https://swapi.co/api/planets/' + randomNum;
 
 		try {
 			const response = await fetch(url);

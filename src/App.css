@@ -7,7 +7,10 @@
   font-weight: normal;
   font-style: normal;
 }
-
+header, button {
+display: grid;
+  justify-items: center;
+}
 
 #title {
   font-family: 'Star Jedi';
