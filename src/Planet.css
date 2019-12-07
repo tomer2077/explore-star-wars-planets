@@ -1,0 +1,129 @@
+body {
+    color: white;
+}
+
+.table-wrapper {
+    display:grid;
+    justify-items: center;
+}
+h1 {
+    display: grid;
+    justify-items: center;
+}
+table {
+    display:grid;
+    border-collapse: collapse;
+    grid-template-columns: 3fr 1fr;
+    padding: 30px;
+    max-width: 1000px;
+    min-width: 500px;
+    max-height: 800px;
+    /* border: 1px solid white; */
+}
+
+
+
+tbody, tr {
+    
+    display: contents;
+    
+}
+
+
+
+
+/* table tr:first-child td {
+    border-top: 0;
+}
+
+table tr:last-child td {
+    border-bottom: 0;
+}
+
+table tr td:last-child,
+table tr td:first-child {
+    border-right: 0;
+    border-left: 0;
+} */
+
+
+#orbit, #gravity {
+    background-image: url('./orbitX.png');
+}
+
+#gravity {
+    background-image: url('./gravity.png');
+}
+
+#terrain {
+    background-image: url('./mountain-range.png');
+}
+
+#rotation {
+    background-image: url('./earth.png');
+
+}
+
+#diameter {
+    background-image: url('./graphic-design.png');
+
+}
+
+#climate {
+    background-image: url('./climate.png');
+}
+
+#water {
+    background-image: url('./weather.png');
+
+}
+
+#population {
+    background-image: url('./population.png');
+}
+
+button {
+    /* display: flex;
+    justify-content: center; */
+    margin: auto;
+}
+
+td {
+    /* border: 1px solid white; */
+    border: 1px solid ;
+    font-size: 1.3rem;
+    padding-left: 15px;
+    background-repeat: no-repeat;
+    background-size:contain;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    height: 90px;
+    border: 10px;
+    display: flex;
+    align-items: flex-end;
+    border: 10px solid transparent;
+    /* padding: 1px solid white; */
+}
+
+/* td:before {
+    image: url('./terrain.svg');
+} */
+
+@media screen and (max-width: 1000px) {
+    td {
+        /* font-size: 2rem; */
+    }
+}
+  
+@media screen and (min-width: 1300px) {
+    td {
+        /* font-size: 2rem; */
+    }
+}
+
+tr:nth-child(even) td {
+    /* background: rgb(119, 235, 255); */
+    
+}
